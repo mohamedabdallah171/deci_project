@@ -18,7 +18,6 @@ const SubscriptionCard = () => {
 
         <ul className="feature-list">
           <li><strong>No Ads</strong></li>
-          <li>Set a schedule to stop social media apps from distracting you</li>
           <li>
             Group Challenge Mode:
             <button className="invite-btn">Invite your friends</button>
