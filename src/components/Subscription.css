@@ -1,0 +1,102 @@
+.subscription-wrapper {
+  background-color: #e0e4e9;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding: 40px 20px;
+}
+
+.subscription-card {
+  background: white;
+  width: 100%;
+  max-width: 420px;
+  padding: 30px 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.subscription-header {
+  background: #fdbb50;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  gap: 15px;
+  text-align: left;
+}
+
+.subscription-header .icon {
+  font-size: 24px;
+}
+
+.subscription-card h2 {
+  font-size: 22px;
+  margin-top: 0;
+}
+
+.subtitle {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.feature-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  text-align: left;
+}
+
+.feature-list li {
+  margin: 10px 0;
+  font-size: 15px;
+}
+.invite-btn{
+  background-color: #fdbb50;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 16px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background 0.3s;
+  margin-left: 30px;
+}
+.unlock-btn {
+  background-color: #fdbb50;
+  border: none;
+  border-radius: 20px;
+  padding: 12px 24px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background 0.3s;
+}
+
+.unlock-btn:hover {
+  background-color: #e8a62d;
+}
+
+/* ✅ Responsive tweak */
+@media (max-width: 480px) {
+  .subscription-card {
+    padding: 25px 15px;
+  }
+
+  .subscription-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .subscription-header .icon {
+    font-size: 20px;
+  }
+
+  .subscription-card h2 {
+    font-size: 20px;
+  }
+  
+  
+}
